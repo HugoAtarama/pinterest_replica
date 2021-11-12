@@ -1,0 +1,212 @@
+/* Fuentes de letra*/
+body, html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", 
+  "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, 
+  "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Aagregar margenes  */
+.fotos{
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+  margin-bottom: 25px !important;
+}
+.superior{
+  margin-bottom: 100px !important;
+}
+
+
+
+#box1 {
+    box-sizing: border-box;
+    display: block;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 5px;
+    border-style: none;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 20px;
+    /* border-style: none; */
+  }
+  img {
+    cursor: zoom-in;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 200px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+    .input-busca{
+      max-width: 20px;
+    }
+  }
+
+  .gridCentered {
+    padding-top:150px;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+
+  img {
+    opacity: 1;
+  
+  }
+  
+  img:hover {
+    opacity: 0.5;
+  }
+  
+/* UTILIZAR CLASE 'HOVER' INDICA CUAL ACCION PASA CUANDO SE PASA EL MOUSE... DARLE EFECTO DE OPACITY 0-1 AL HOVER */
+
+.iconos{
+  height: 40px;
+  width: 40px;
+
+}
+
+.iconos-2{
+  height: 40px;
+  width: 40px;
+  filter: invert(50%); 
+
+}
+
+
+/* Primer Navbar  */
+.menu-1 {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid blanchedalmond;
+ 
+}
+.text-1{
+  color: white;
+  padding: 50px;
+  padding-right: 45%;
+}
+.boton-1{
+  border-radius: 25px;
+  height: 10vh;
+  width: 10vh;
+  cursor: pointer;
+  background-color: #efefef;
+}
+.boton-2{
+  border-radius: 20px;
+  cursor: pointer;
+  height: 8vh;
+  width: 15vw;
+  margin-right: 45px;
+  background-color: #fff;
+}
+
+.menu {
+  background-color: white;
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid blanchedalmond;
+}
+
+.logo {
+
+  padding:  35px;
+}
+
+.menu_items {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 10px;
+}
+
+.menu_items li {
+  border-radius: 50px;
+  margin: 5px 5px;
+  
+}
+
+.menu_items li a {
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  /* text-transform: uppercase; */
+  color: black;
+}
+
+.menu_items li:hover, li.active {
+  background-color: rgba(0, 0, 0, .3);
+  transition: .4s;
+}
+
+
+.fondo_menu {
+  background-color: none;
+}
+
+.buscador{
+  background-color: blanchedalmond;
+}
+
+}
+#lupa{
+  background-image:url(../imagenes/buscar.png); 
+  background-repeat: no-repeat; 
+  background-position: 1px 3px;
+  background-size: 25px;
+  width: 2000px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.btn-circular{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+}
+.circular{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0px;
+}
+.input-busca{
+  width: 1000px;
+}
